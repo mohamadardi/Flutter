@@ -1,36 +1,39 @@
+// Hacktoberfest2020
+// Support open source and pick a limited edition T-shirt or plant a tree.
+
 import 'dart:io';
 
 void main() {
   int no;
   String nama;
 
-  stdout.write('Masukkan nomor bulan: ');
+  stdout.write('Masukkan nomor bilangan [1..12]: ');
   no = int.parse(stdin.readLineSync());
 
   if (no == 1) {
-    nama = 'Januari';
+    nama = 'Satu';
   } else if (no == 2) {
-    nama = 'Februari';
+    nama = 'Dua';
   } else if (no == 3) {
-    nama = 'Maret';
+    nama = 'Tiga';
   } else if (no == 4) {
-    nama = 'April';
+    nama = 'Empat';
   } else if (no == 5) {
-    nama = 'Mei';
+    nama = 'Lima';
   } else if (no == 6) {
-    nama = 'Juni';
+    nama = 'Enam';
   } else if (no == 7) {
-    nama = 'Juli';
+    nama = 'TUjuh';
   } else if (no == 8) {
-    nama = 'Agustus';
+    nama = 'Delapan';
   } else if (no == 9) {
-    nama = 'September';
+    nama = 'Sembilan';
   } else if (no == 10) {
-    nama = 'Oktober';
+    nama = 'Sepuluh';
   } else if (no == 11) {
-    nama = 'November';
+    nama = 'Sebelas';
   } else if (no == 12) {
-    nama = 'Desember';
+    nama = 'Duabelas';
   } else {
     print('Nomor bulan yang dimasukkan salah');
     exit(1);
