@@ -1,3 +1,7 @@
+// Hacktoberfest2020
+// Support open source and pick a limited edition T-shirt or plant a tree.
+
+
 import 'dart:io';
 
 void main() {
@@ -10,12 +14,12 @@ void main() {
   print(b);
   print(c);
 
-  print('Hello');
-  print('World');
+  print('Hacktoberfest');
+  print('2020');
 
-  stdout.write('Hello');
-  stdout.write('\tWorld');
+  stdout.write('Hacktoberfest');
+  stdout.write('\t2020');
 
-  stdout.writeln('\nHello');
-  stdout.writeln('World');
+  stdout.writeln('\nHacktoberfest');
+  stdout.writeln('2020');
 }
